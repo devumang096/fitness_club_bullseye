@@ -3,9 +3,10 @@ import React, { useState } from "react";
 
 export default function App() {
   const [values, setValues] = useState({
-    firstName: "",
-    lastName: "",
-    email: ""
+    name: "",
+    number: "",
+    email: "",
+    address: ""
   });
 
   const handleInputChange = (event) => {
@@ -52,9 +53,10 @@ export default function App() {
               </table>
                 {" "} 
             </h3>
-            <div> Your registration was successful! </div>
+            <div><button class="form-field"><a href="/">Back to Home</a></button> </div>
           </div>
         )}
+        <h2 class="titlehead">Fitness Form Registeration</h2>
         {!valid && (
           <input
             class="form-field"
@@ -119,6 +121,7 @@ export default function App() {
             Add Member
           </button>
         )}
+      {/* <button class="button"><a href="/">View Member</a></button> */}
       </form>
     </div>
   );

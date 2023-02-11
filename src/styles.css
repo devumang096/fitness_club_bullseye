@@ -7,15 +7,30 @@ body {
     align-items: center;
     display: flex;
   }
+  .button{
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 16px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+  }
   
   .form-container {
     width: 900px;
     background-color: rgba(8, 16, 68, 0.65);
     margin: auto;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.2), 0 5px 5px 0 rgba(252, 1, 1, 0);
     padding: 10px;
   }
-  
+  a{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .titlehead{
+    color: #f2f2f2;
+    font-size: xx-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   .register-form {
     display: flex;
     flex-direction: column;
@@ -25,7 +40,7 @@ body {
   
   .success-message {
     font-family: "Roboto", sans-serif;
-    background-color: #1d1e20;
+    background-color: #135163b8;
     padding: 15px;
     color: white;
     text-align: center;
