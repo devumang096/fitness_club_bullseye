@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fitness_club_bullseye/static/css/main.7c4c3709.css",
-    "main.js": "/fitness_club_bullseye/static/js/main.699ff92d.js",
+    "main.js": "/fitness_club_bullseye/static/js/main.a8fec98e.js",
     "index.html": "/fitness_club_bullseye/index.html",
     "main.7c4c3709.css.map": "/fitness_club_bullseye/static/css/main.7c4c3709.css.map",
-    "main.699ff92d.js.map": "/fitness_club_bullseye/static/js/main.699ff92d.js.map"
+    "main.a8fec98e.js.map": "/fitness_club_bullseye/static/js/main.a8fec98e.js.map"
   },
   "entrypoints": [
     "static/css/main.7c4c3709.css",
-    "static/js/main.699ff92d.js"
+    "static/js/main.a8fec98e.js"
   ]
 }
